@@ -1,0 +1,618 @@
+:root {
+    --lato-font: "Lato", sans-serif;
+  }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* <--------------Navigation Menu--------------------------------> */
+section {
+    width: auto;
+    /* padding-left: 133px;  scroll bar gets activate*/ 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#logo {
+    width: 209px;
+    margin-top: 10px;
+    padding:  12px 35px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu li {
+    font-size: 18px;
+    margin-top: 35px;
+    padding: 0px 15px;
+    font-family: var(--lato-font);
+    line-height: 21.6px;
+    font-weight: 500;
+}
+#signup {
+    margin-top: 18px;
+    margin-right: 40px;
+}
+
+.disply_content {
+    display: flex;
+}
+
+a button{
+    border-radius: 30px;
+    justify-content: center;
+    width: 100px;
+    height: 46px;
+    margin-top: -10px !important;
+    color: white;
+    background-color:#3FC4FF;
+    border: none;
+   
+}
+
+#signup li{
+    margin-top: 20px;
+    padding: 0px 15px;
+    font-family: var(--lato-font);
+    line-height: 21.6px;
+    font-weight: 500;
+}
+#active{
+    color: #3FC4FF;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ /* <--------------Navigation Menu--------------------------------> */
+ /* <--------------Hero Banner--------------------------------> */
+
+#model{
+    width: auto;
+    height:inherit;
+    padding-left: 35px;
+    margin-top: 75px;
+  }
+
+.hero-banner{
+    width:auto;
+    top: 167px;
+    left: 133px;
+    height: 656px;
+}
+
+h1{
+font-family: var(--lato-font);
+font-size: 80px;
+font-weight: 700;
+line-height: 111px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 35px ;
+margin-top: 75px;
+
+}
+#rounded-head{
+    padding-left: 386px;
+    margin-top: -397px;
+}
+
+div p{
+    font-family: var(--lato-font);
+    text-align: left;
+    text-align: justify;
+    letter-spacing: 0em;
+    padding-left: 40px ;
+    width: 648px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #737373;
+}
+
+#banner-btn{
+    padding-left: 40px ;
+    margin-top:50px;
+}
+
+#courses{
+    color: #3FC4FF
+}
+#notepal{
+    color: #946FC6;
+}
+
+/* <--------------Hero Banner--------------------------------> */
+/* <--------------why-we--------------------------------> */
+
+.about-us{
+    height: 1094px;
+    background-color: #946FC614;
+    margin-top: 166px;
+    overflow: hidden;
+}
+
+.grid{
+    margin-left: 33px;
+    margin-top: 218px;
+    margin-right: 133px;
+}
+
+.rows-height{
+    height:350px;
+}
+
+.blocks2{
+    margin-top: 34px ;
+}
+
+.about-us h3{
+width: 550px;
+height: 150px;
+font-family: Lato;
+font-size: 60px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.about-us-cards{
+    border-radius: 15px !important;
+    padding-left: 35px;
+    padding-top: 44px;
+    height: 350px;
+    width: 385px;
+    background-color: white;
+    box-shadow: 0px 1px 10px 4px rgba(30, 41, 59, 0.05);
+}
+
+.about-us-cards p{
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+height: 130px;
+width: 310px !important;
+padding: 0px !important;
+
+}
+.about-us h5{
+    height: 60px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+.about-us-cards-imgs{
+    width: 47px;
+    height: 36px;
+    margin: 17px 11px;
+}
+.rows-height p{
+    padding-left: 0px !important;
+    text-align: left;
+    width: 493px;
+    height: 60px;
+    margin: 10px 0px;
+}
+
+.rows-height a button{
+    width: 144px;
+    height: 46px;
+    margin-top: 20px !important;
+}
+
+/* <--------------why-we--------------------------------> */
+/* <--------------Number--------------------------------> */
+.numbers-1{
+    font-family: Lato;
+font-size: 30px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+padding-left: 35px;
+margin-top: 20px;
+}
+
+.numbers-2{
+    font-family: Lato;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+padding-left: 35px;
+}
+
+.numbers{
+    height: 150px; 
+    background-color: #946fc6; 
+    border-radius: 15px;
+    position: relative;
+    margin-top: -1165px !important;
+}
+
+.whitebox{
+    background-color: white; 
+    border-radius: 10px
+}
+
+/* <--------------Number--------------------------------> */
+
+/* <--------------courses-card--------------------------------> */
+.courses{
+    background-color: #3FC4FF0D;
+}
+.courses h3{
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 75px;
+    padding-left: 35px;
+    }
+
+    .cards{
+    width: 460px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(30, 41, 59, 0.08);
+    }
+    .courses > p{
+        width: 460px;
+        height: 60px;
+        font-family: var(--lato-font);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 43px;
+        color: #737373;
+        margin-top: 30px;
+    }
+
+    .circles{
+        width: 36px;
+        height: 36px;
+        background-color: #3FC4FF1A;
+        border-radius: 50%;
+        margin-top: 17px;
+    }
+
+    .card-details p{
+        padding-left: 0px !important;
+        width: 394px;
+        text-align: left;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    #science{
+        background-color: #3FC4FF1A;
+        color: #3FC4FF;
+        border-radius: 5px;
+        width: 93px;
+        height: 30px;
+        margin-top: 10px;
+        padding-left: 20px !important;
+        font-size: 14px;
+    }
+
+    #mathematics{
+        background-color: #946FC61A;
+        color: #946FC6;
+        border-radius: 5px;
+        width: 93px;
+        height: 30px;
+        margin-top: 10px;
+        padding-left: 8px !important;
+        font-size: 14px;
+    }
+
+    #english{
+        color: #798EE4;
+        background-color: #798EE41A;
+        border-radius: 5px;
+        width: 93px;
+        height: 30px;
+        margin-top: 10px;
+        padding-left: 20px !important;
+        font-size: 14px;
+    }
+    .card-details button{
+        width: 123px;
+        height: 30px;
+        margin-top: 11px;
+    }
+
+    h5{
+        margin-top: 7px;
+    }
+
+    .card-icons span{
+        font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #737373;
+margin-left: 15px;
+    }
+/* <--------------courses-card--------------------------------> */
+
+/* <--------------categories--------------------------------> */
+
+.categories{
+    background-color: whitesmoke;
+    overflow: hidden;
+    margin-top: 1015px;
+}
+
+.categories h3{
+font-family: Lato;
+font-size: 60px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: left;
+height: 75px;
+padding-left: 385px;
+}
+.categories > p{
+    width: 493px;
+    height: 60px;
+    font-family: var(--lato-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 512px;
+    text-align-last: center;
+    color: #737373;
+}
+
+.categories > div{
+    padding-left: 200px;
+}
+
+.box{
+    background-color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 215px !important;
+    box-shadow: #00000014;
+    margin: 35px 10px;
+    height: 215px;
+}
+
+/* <--------------categories--------------------------------> */
+/* <--------------become-card--------------------------------> */
+
+.become-card-teacher{
+    background-color: #946FC6;
+}
+
+.become-card-parent{
+    background-color: #3FC4FF;
+}
+
+.become-card h4{
+font-family: Lato;
+font-size: 60px;
+font-weight: 300;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+width: 220px;
+color: white;
+}
+
+.become-card h4 span{
+font-family: Lato;
+font-size: 60px;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+
+.become-card p{
+width: 368px;
+height: 60px;
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+padding-left: 13px !important;
+padding-top: 10px !important;
+}
+
+.become-card-teacher-signup{
+    padding-left: 200px;
+    margin-top: 80px;
+}
+
+.become-card-teacher-signup button{
+    padding: 5px 0px;
+    background: #3FC4FF;
+    margin-top: 30px !important;
+}
+
+.become-card-parents-signup button{
+    padding: 5px 0px;
+    background: #946FC6;
+    margin-top: 30px !important;
+}
+
+
+.become-card-parents-signup{
+    padding-left: 43px;
+    margin-top: 80px;
+}
+
+/* <--------------become-card--------------------------------> */
+/* <--------------Testimonials--------------------------------> */
+.testimonials{
+   margin-top:50px;
+}
+.testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 675px;
+  }
+
+  .testimonials h3{
+    margin-left: 130px;
+  }
+
+  .testimonial-quote-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 55px;
+text-align-last: center;
+  }
+
+  .testimonial-role {
+    font-size: 16px;
+    color: #737373;
+  }
+
+  .testimonial-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E293B;
+  }
+
+  .testimonial-description {
+    text-align-last: center;
+    width: 455px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .testimonial-data-info {
+    text-align-last: center;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+
+  .testimonial-image-container {
+    position: relative;
+    margin: 50px 0px;
+  }
+/* <--------------Testimonials--------------------------------> */
+
+/* <--------------Footer--------------------------------> */
+.footers{
+    background: #946FC614;
+}
+footer p{
+    text-align: left;
+    text-align: justify;
+    width: inherit;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+.social-icons{
+    padding-left: 14px;
+    margin-bottom: 10px;  
+}
+
+.eclipse {
+    width: 44px;
+    height: 44px;
+    background-color: #FF000026;
+    border-radius: 50%;
+}
+
+.footer-links{
+    display: flex; 
+    flex-direction: column;
+}
+
+input{
+    width: 235px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 10px;
+    background: #FFFFFF;
+}
+
+input::placeholder{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: #D0CFE2;
+}
+
+footer button{
+    background-color: #946FC6;
+    color: white;
+    border: none;
+    width: 61px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 10px;
+}
+
+hr{
+color: #1E293B33;
+border: 1px solid #1E293B33;
+margin:0px 133px;
+}
+
+.footers > p{
+    margin-bottom: 0;
+    padding: 20px 0px;
+}
+
+.footers i{
+    margin-top: 13px;
+    width: 20px;
+    height: 19px;
+}
+/* <--------------Footer--------------------------------> */
+
+
